@@ -35,7 +35,7 @@
           <ul class="nav navbar-nav">
                   <li><a href="https://nikostsikouras.github.io/">Nikos Tsikouras</a></li>
                   <li><a href="https://drive.google.com/file/d/13YlKk622Oj2ayV_yN6BKzaeZecZPaoSb/view?usp=drive_link" target = "_blank">CV</a></li> 
-                  <li><a href="#publications">Publications</a></li>
+                  <h2 id="publications">Publications</h2>
           </ul>
         </div>
       </div>
@@ -130,6 +130,19 @@
   </div>
 </div>
 
+<script>
+  $(document).ready(function(){
+    $('a[href^="#"]').on('click', function(event) {
+      event.preventDefault();
+      var target = this.hash;
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: $(target).offset().top - 70  // Adjust offset for navbar height
+        }, 600);
+      }
+    });
+  });
+</script>
 
 
     </div>
