@@ -1,28 +1,19 @@
-# Plain-Academic Template
-A truly simple website template for academics. It was developed with simplicity in mind (both in terms of style and in code complexity).
+# Nikos Tsikouras — personal website
 
-Just download the two files (index.html and photo.gif) and start editing straightaway.
+A static research portfolio for [Nikos Tsikouras](https://nikostsikouras.github.io/). It presents publications, research experience, AI Olympiad leadership, projects, and contact information.
 
+## Updating the site
 
-<img src="/img/frontpage.png" width="60%" height="60%">
+The site is plain HTML and CSS. Edit `index.html` for content and `styles.css` for layout. Open `index.html` locally or serve the directory with a static HTTP server to preview it. GitHub Pages publishes the files from the repository's configured source.
 
-If you have suggestions for improvements feel free to make a pull request or open an issue.
+The public CV is `Nikos_Tsikouras_CV.pdf`. Replace it when the CV changes, and review any under-review work for conference anonymity requirements before publishing.
 
-If you are using it, I'd be happy to hear from you! You can drop me a line at ([link](https://mavroud.is))!
+## Image credits
 
+- `nikos_tsikouras.jpg`: portrait supplied with the original site.
+- `assets/team-greece-ioai-2025.png`: Team Greece photograph from [Archimedes Research Unit](https://archimedesai.gr/en/news/greece-wins-2-silver-medals-and-1-bronze-at-the-international-olympiad-in-artificial-intelligence-ioai-for-high-school-students).
+- `assets/team-greece-2026-results.png`: 2026 Olympiad results graphic from [Archimedes Research Unit](https://archimedesai.gr/en/news/six-medals-for-the-greek-national-ai-team-at-euroai-and-ioai-2026).
 
-You can get more ideas from other nice people using this template: 
-- [Jonathan Bootle](https://jbootle.github.io/)
-- [Hossein Rezaei](https://www.cs.ucf.edu/~rezaei)
-- [Gustavo Cevolani](http://www.gustavocevolani.it/)
-- [Isabel Papadimitriou](https://nlp.stanford.edu/~isabelvp/)
-- [Debjani Saha](https://www.cs.umd.edu/~dsaha/) 
-- [Dong Chen](https://dongchen-coder.github.io/)
-- [Sourav Chatterjee](https://statweb.stanford.edu/~souravc/index.html)
-- [Chenfanfu Jiang](https://www.seas.upenn.edu/~cffjiang/)
-- [Masum Hasan](http://masumhasan.net/)
-- [Tapajit Dey](https://tapjdey.github.io/)
-- [Jakob Brounstein](https://jakobbrounstein.github.io/)
+## Original template attribution
 
-
-Please do not remove the attibution link of the template, so that other people can find it too.
+The previous version of this site was based on [Plain-Academic](https://github.com/mavroudisv/plain-academic) by Vasilios Mavroudis. Its BSD 2-Clause license and copyright notice are retained in `LICENSE.txt`. The redesign no longer uses the template's layout or code.
