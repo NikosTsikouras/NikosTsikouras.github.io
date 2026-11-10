@@ -18,7 +18,7 @@ The public CV is `Nikos_Tsikouras_CV.pdf`. Replace it when the CV changes, and r
 - `assets/logo-imperial.png`: Imperial College London's current wordmark from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Imperial_College_London_new_logo.png), sourced there from Imperial's official site.
 - `assets/logo-lancaster.svg`: shield from [Lancaster University](https://www.lancaster.ac.uk/external-relations/marketing-office/brand/visual-identity/logos/index.php).
 - `assets/logo-patras.jpg`: seal from the [University of Patras logo page](https://www.upatras.gr/en/logo/).
-- `assets/logo-mit-cropped.png`: MIT mark from the [MIT Brand Guide](https://brand.mit.edu/logos-marks/mit-logo), cropped to remove surrounding blank space.
+- `assets/logo-mit.svg`: transparent MIT mark from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MIT_2023_red_logo.svg), matching the current [MIT Brand Guide](https://brand.mit.edu/logos-marks/mit-logo).
 - `assets/logo-utexas.svg`: university wordmark from the [UT Austin brand site](https://brand.utexas.edu/identity/logos/).
 
 ## Original template attribution
