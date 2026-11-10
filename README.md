@@ -15,6 +15,11 @@ The public CV is `Nikos_Tsikouras_CV.pdf`. Replace it when the CV changes, and r
 - `assets/team-greece-ioai-2025.png`: Team Greece photograph from [Archimedes Research Unit](https://archimedesai.gr/en/news/greece-wins-2-silver-medals-and-1-bronze-at-the-international-olympiad-in-artificial-intelligence-ioai-for-high-school-students).
 - `assets/team-greece-2026-results.png`: 2026 Olympiad results graphic from [Archimedes Research Unit](https://archimedesai.gr/en/news/six-medals-for-the-greek-national-ai-team-at-euroai-and-ioai-2026).
 - `assets/team-greece-euroai-2026.jpg` and `assets/team-greece-ioai-2026.jpeg`: Team Greece photographs supplied by Nikos.
+- `assets/logo-imperial.png`: Imperial College London's current wordmark from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Imperial_College_London_new_logo.png), sourced there from Imperial's official site.
+- `assets/logo-lancaster.svg`: shield from [Lancaster University](https://www.lancaster.ac.uk/external-relations/marketing-office/brand/visual-identity/logos/index.php).
+- `assets/logo-patras.jpg`: seal from the [University of Patras logo page](https://www.upatras.gr/en/logo/).
+- `assets/logo-mit-cropped.png`: MIT mark from the [MIT Brand Guide](https://brand.mit.edu/logos-marks/mit-logo), cropped to remove surrounding blank space.
+- `assets/logo-utexas.svg`: university wordmark from the [UT Austin brand site](https://brand.utexas.edu/identity/logos/).
 
 ## Original template attribution
 
