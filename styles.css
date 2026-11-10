@@ -47,3 +47,48 @@ h1{font-family:var(--serif);font-size:clamp(82px,10.2vw,160px);line-height:.78;l
 .site-header{position:sticky;top:0}
 .hero,.section,.contact-section{scroll-margin-top:76px}
 @media(max-width:760px){.hero,.section,.contact-section{scroll-margin-top:66px}}
+
+/* Opportunity, institutions, and service */
+.opportunity-note{display:inline-flex;align-items:center;gap:12px;color:var(--lime);border:1px solid rgba(201,238,143,.48);border-radius:100px;padding:8px 15px;font-size:12px;font-weight:700;letter-spacing:.025em;margin:-16px 0 29px}
+.opportunity-note .status-dot{flex:none;width:7px;height:7px}
+.portrait-frame img{object-position:58% 51%;filter:saturate(.9)}
+.signal-grid .signal-word{font-size:42px}
+.institution-mark{display:inline-block;font-family:var(--sans);font-size:20px;font-weight:700;letter-spacing:-.05em;line-height:1;margin:0 0 16px;color:#283f33}
+.mit-mark{font-size:27px;letter-spacing:-.1em;color:#a31f34}
+.ut-mark{color:#bf5700}
+.nkua-mark{font-size:15px;letter-spacing:.015em;color:#416e58}
+.education-section{background:#fff}
+.education-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.education-card{min-height:312px;display:flex;flex-direction:column;align-items:flex-start;padding:27px 28px;border:1px solid var(--line);background:#fafaf7;position:relative}
+.education-mark{display:flex;align-items:center;justify-content:center;min-height:73px;max-width:100%;font-weight:700;letter-spacing:-.06em;line-height:1;white-space:nowrap;margin-bottom:auto}
+.imperial-mark{font-size:37px;color:#003e74}
+.lancaster-mark{font-family:var(--serif);font-size:38px;color:#a31a3b}
+.patras-mark{font-family:var(--serif);font-size:39px;color:#426b8e}
+.education-card .eyebrow{font-size:10px;color:#5d7766;margin:16px 0 8px}
+.education-card h3{font-family:var(--serif);font-size:clamp(23px,2.4vw,30px);font-weight:400;line-height:1.06;letter-spacing:-.03em;margin-bottom:8px}
+.education-card p{font-size:13px;color:var(--muted);margin:0}
+.education-card>a{position:absolute;right:27px;bottom:24px;font-size:19px;line-height:1}
+.education-card>a:hover{color:#397854}
+.service-section{background:#20382d;color:#f0f5ed}
+.service-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:12%;align-items:start}
+.service-grid .section-label{color:var(--lime);margin-bottom:22px}
+.service-grid h2{max-width:480px}
+.service-content{padding-top:5px}
+.service-award{display:flex;gap:21px;align-items:flex-start;padding-bottom:33px;border-bottom:1px solid rgba(255,255,255,.22)}
+.award-star{font-size:54px;color:var(--lime);line-height:1}
+.service-award .eyebrow{color:var(--lime);margin-bottom:11px}
+.service-award h3{font-family:var(--serif);font-size:clamp(32px,3vw,44px);font-weight:400;line-height:1;margin-bottom:11px}
+.service-award p{color:#b8c9bd;font-size:14px;margin:0}
+.service-review-heading{font-size:12px;text-transform:uppercase;letter-spacing:.12em;font-weight:700;color:#b8c9bd;margin:29px 0 15px}
+.review-venues{display:flex;gap:9px;flex-wrap:wrap}
+.review-venues span{border:1px solid rgba(201,238,143,.6);color:var(--lime);padding:8px 15px;font-weight:700;font-size:13px;letter-spacing:.05em}
+.olympiad-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.olympiad-image{aspect-ratio:1.45}
+.olympiad-content{padding:26px 26px 24px}
+.olympiad-content h3{font-size:clamp(28px,2.7vw,39px)}
+.community-note p{max-width:870px}
+.competition-note{margin-top:25px;padding-top:25px}
+.site-footer .footer-inner>span:nth-child(2){font-family:var(--serif);font-size:16px;color:#d3e2d0}
+@media(max-width:1050px){.desktop-nav{gap:16px;font-size:12px}.olympiad-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.olympiad-card:last-child{grid-column:span 2}.olympiad-card:last-child .olympiad-image{aspect-ratio:2.5}.education-card{padding:23px}.education-mark{font-size:32px}}
+@media(max-width:760px){.opportunity-note{margin:-10px 0 23px}.education-grid{grid-template-columns:1fr}.education-card{min-height:220px}.education-mark{margin-bottom:22px}.service-grid{grid-template-columns:1fr;gap:35px}.olympiad-grid{grid-template-columns:1fr}.olympiad-card:last-child{grid-column:auto}.olympiad-card:last-child .olympiad-image{aspect-ratio:1.75}.site-footer .footer-inner>span:nth-child(2){display:block}}
+@media(max-width:420px){.opportunity-note{font-size:10px;padding:7px 10px}.signal-grid .signal-word{font-size:31px}.olympiad-card:last-child .olympiad-image{aspect-ratio:1.3}.education-card{min-height:210px}.education-mark{font-size:31px}.service-award{gap:14px}.award-star{font-size:43px}}

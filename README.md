@@ -11,8 +11,10 @@ The public CV is `Nikos_Tsikouras_CV.pdf`. Replace it when the CV changes, and r
 ## Image credits
 
 - `nikos_tsikouras.jpg`: portrait supplied with the original site.
+- `assets/nikos-boston-2026.jpg`: personal portrait supplied by Nikos.
 - `assets/team-greece-ioai-2025.png`: Team Greece photograph from [Archimedes Research Unit](https://archimedesai.gr/en/news/greece-wins-2-silver-medals-and-1-bronze-at-the-international-olympiad-in-artificial-intelligence-ioai-for-high-school-students).
 - `assets/team-greece-2026-results.png`: 2026 Olympiad results graphic from [Archimedes Research Unit](https://archimedesai.gr/en/news/six-medals-for-the-greek-national-ai-team-at-euroai-and-ioai-2026).
+- `assets/team-greece-euroai-2026.jpg` and `assets/team-greece-ioai-2026.jpeg`: Team Greece photographs supplied by Nikos.
 
 ## Original template attribution
 
