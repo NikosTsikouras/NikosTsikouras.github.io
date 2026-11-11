@@ -136,3 +136,10 @@ h1 em{color:#25688c}
 .news-card li.featured-news>time{color:#155477}
 .news-list:focus-visible{outline:2px solid #1d6388;outline-offset:-2px}
 @media(max-width:620px){.news-head{margin-bottom:8px}.news-head>span{font-size:8px}.news-card li>time{font-size:8px}.news-card .news-list{padding-right:5px}}
+
+.desktop-nav>a.nav-team-greece{position:relative;overflow:hidden;display:inline-flex;align-items:center;border-radius:4px;padding:6px 9px;margin:-6px -9px;transition:background-color .2s,color .2s,box-shadow .2s}
+.desktop-nav>a.nav-team-greece::after{content:"";position:absolute;top:-30%;left:-45%;width:32%;height:160%;background:rgba(255,255,255,.4);transform:skewX(-22deg) translateX(-180%);pointer-events:none}
+.desktop-nav>a.nav-team-greece:is(:hover,:focus-visible){background:#0d5eae;color:#fff;box-shadow:0 0 0 1px #fff,0 0 16px rgba(13,94,174,.5)}
+.desktop-nav>a.nav-team-greece:is(:hover,:focus-visible)::after{animation:greek-blue-shine .75s ease-out forwards}
+@keyframes greek-blue-shine{to{transform:skewX(-22deg) translateX(700%)}}
+@media(prefers-reduced-motion:reduce){.desktop-nav>a.nav-team-greece{transition:none}.desktop-nav>a.nav-team-greece:is(:hover,:focus-visible)::after{animation:none}}
