@@ -137,9 +137,11 @@ h1 em{color:#25688c}
 .news-list:focus-visible{outline:2px solid #1d6388;outline-offset:-2px}
 @media(max-width:620px){.news-head{margin-bottom:8px}.news-head>span{font-size:8px}.news-card li>time{font-size:8px}.news-card .news-list{padding-right:5px}}
 
-.desktop-nav>a.nav-team-greece{position:relative;overflow:hidden;display:inline-flex;align-items:center;border-radius:4px;padding:6px 9px;margin:-6px -9px;transition:background-color .2s,color .2s,box-shadow .2s}
-.desktop-nav>a.nav-team-greece::after{content:"";position:absolute;top:-30%;left:-45%;width:32%;height:160%;background:rgba(255,255,255,.4);transform:skewX(-22deg) translateX(-180%);pointer-events:none}
-.desktop-nav>a.nav-team-greece:is(:hover,:focus-visible){background:#0d5eae;color:#fff;box-shadow:0 0 0 1px #fff,0 0 16px rgba(13,94,174,.5)}
-.desktop-nav>a.nav-team-greece:is(:hover,:focus-visible)::after{animation:greek-blue-shine .75s ease-out forwards}
-@keyframes greek-blue-shine{to{transform:skewX(-22deg) translateX(700%)}}
-@media(prefers-reduced-motion:reduce){.desktop-nav>a.nav-team-greece{transition:none}.desktop-nav>a.nav-team-greece:is(:hover,:focus-visible)::after{animation:none}}
+.desktop-nav .nav-letter{display:inline-block;white-space:pre;transform-origin:center bottom}
+.desktop-nav>a:not(.nav-contact):is(:hover,:focus-visible) .nav-letter{animation:nav-letter-hop .55s cubic-bezier(.2,.8,.25,1) both;animation-delay:var(--delay)}
+.desktop-nav>a.nav-team-greece{position:relative;white-space:nowrap}
+.desktop-nav>a.nav-team-greece::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:3px;background:repeating-linear-gradient(90deg,#0d5eae 0 6px,#fff 6px 10px);box-shadow:0 0 0 1px rgba(13,94,174,.35);transform:scaleX(0);transform-origin:left;transition:transform .4s ease .15s}
+.desktop-nav>a.nav-team-greece:is(:hover,:focus-visible)::after{transform:scaleX(1)}
+.desktop-nav>a.nav-team-greece:is(:hover,:focus-visible) .nav-letter{color:#0d5eae}
+@keyframes nav-letter-hop{0%,100%{transform:translateY(0) scale(1)}38%{transform:translateY(-5px) scale(1.14)}68%{transform:translateY(1px) scale(.98)}}
+@media(prefers-reduced-motion:reduce){.desktop-nav>a:not(.nav-contact):is(:hover,:focus-visible) .nav-letter{animation:none}.desktop-nav>a.nav-team-greece::after{transition:none}}
