@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261111-papers">
+  <link rel="stylesheet" href="styles.css?v=20261111-news">
   <script src="script.js" defer></script>
   <meta property="og:type" content="website">
   <meta property="og:title" content="Nikos Tsikouras — Machine Learning Researcher">
@@ -54,10 +54,22 @@
         <div class="dashboard" aria-label="At a glance">
           <div class="top-cards">
             <figure class="profile-photo"><img src="assets/nikos-boston-2026.jpg" alt="Nikos Tsikouras standing by a waterfront" width="1536" height="2040" fetchpriority="high"></figure>
-            <div class="news-card"><h2>Latest</h2><ul>
-              <li class="featured-news"><span>NeurIPS 2026 oral</span><a href="https://archimedesai.gr/en/news/archimedes-at-neurips-2026" target="_blank" rel="noopener noreferrer"><strong>MaxSketch</strong> selected for an oral presentation</a></li>
-              <li><span>Service</span><p>Recognized as a NeurIPS 2026 Top Reviewer</p></li>
-              <li><span>Team Greece at AI Olympiads</span><a href="https://archimedesai.gr/en/news/six-medals-for-the-greek-national-ai-team-at-euroai-and-ioai-2026" target="_blank" rel="noopener noreferrer">Six medals across European and international competitions in 2026</a></li>
+            <div class="news-card"><div class="news-head"><h2>News</h2><span>Scroll for more ↓</span></div><ul class="news-list" tabindex="0" aria-label="News and milestones, newest first">
+              <li class="featured-news"><time datetime="2026">2026 · Research</time><a href="https://archimedesai.gr/en/news/archimedes-at-neurips-2026" target="_blank" rel="noopener noreferrer"><strong>MaxSketch</strong> selected for a NeurIPS oral presentation</a></li>
+              <li><time datetime="2026">2026 · Service</time><p>Recognized as a NeurIPS Top Reviewer</p></li>
+              <li><time datetime="2026-08">Aug 2026 · Team Greece</time><a href="https://archimedesai.gr/en/news/six-medals-for-the-greek-national-ai-team-at-euroai-and-ioai-2026" target="_blank" rel="noopener noreferrer">2 silver and 2 bronze medals at the International AI Olympiad in Astana</a></li>
+              <li><time datetime="2026-07">Jul 2026 · Team Greece</time><a href="https://archimedesai.gr/en/news/six-medals-for-the-greek-national-ai-team-at-euroai-and-ioai-2026" target="_blank" rel="noopener noreferrer">2 bronze medals at the European AI Olympiad in Cluj</a></li>
+              <li><time datetime="2026-06">Jun 2026 · Research visit</time><a href="https://www.csail.mit.edu/" target="_blank" rel="noopener noreferrer">Completed a three-month MIT CSAIL visit with Costis Daskalakis; work submitted to ICLR 2027</a></li>
+              <li><time datetime="2026-04">Apr 2026 · Publication</time><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/719bf718cc7e6e1b1431954ab52d5e00-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Published our structure discovery paper at ICLR</a></li>
+              <li><time datetime="2025-12">Dec 2025 · AI education</time><a href="https://pdtn.gr/" target="_blank" rel="noopener noreferrer">Launched Greece’s second national AI competition</a></li>
+              <li><time datetime="2025-11">Nov 2025 · Research visit</time><a href="https://caramanis.github.io/" target="_blank" rel="noopener noreferrer">Returned to Constantine Caramanis’s lab at UT Austin</a></li>
+              <li><time datetime="2025-08">Aug 2025 · Team Greece</time><a href="https://archimedesai.gr/en/news/greece-wins-2-silver-medals-and-1-bronze-at-the-international-olympiad-in-artificial-intelligence-ioai-for-high-school-students" target="_blank" rel="noopener noreferrer">Led Team Greece in Beijing: 2 silver and 1 bronze medal</a></li>
+              <li><time datetime="2025-06">Jun 2025 · AI education</time><p>Helped organize an AI summer school for students</p></li>
+              <li><time datetime="2025-01">Jan 2025 · AI education</time><a href="https://pdtn.gr/" target="_blank" rel="noopener noreferrer">Helped organize Greece’s first national AI competition</a></li>
+              <li><time datetime="2024-11">Nov 2024 · Research visit</time><a href="https://caramanis.github.io/" target="_blank" rel="noopener noreferrer">Visited Constantine Caramanis’s lab at UT Austin</a></li>
+              <li><time datetime="2024-11">Nov 2024 · Community</time><a href="https://www.plateia-ai.gr/" target="_blank" rel="noopener noreferrer">Joined the founding team of Plateia AI</a></li>
+              <li><time datetime="2024-09">Sep 2024 · Publication</time><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7740c0dc79dc282a29384ceb9d3b2408-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Our first paper was accepted at NeurIPS</a></li>
+              <li><time datetime="2023">2023 · PhD</time><a href="https://archimedesai.gr/en/team/nikos-tsikouras" target="_blank" rel="noopener noreferrer">Started my PhD at the University of Athens and Archimedes</a></li>
             </ul></div>
           </div>
         </div>
@@ -102,11 +114,11 @@
 
     <section class="community section" id="community" aria-labelledby="community-title">
       <div class="shell">
-        <div class="section-heading"><div><span class="eyebrow">02 / AI Olympiads</span><h2 id="community-title">Team Greece<span>.</span></h2></div><p>I lead and coach Team Greece for the AI Olympiads. Photos from Beijing, Cluj, and Astana.</p></div>
+        <div class="section-heading"><div><span class="eyebrow">02 / AI Olympiads</span><h2 id="community-title">Team Greece<span>.</span></h2></div><p>I lead and coach Team Greece for the AI Olympiads. Photos from Astana, Cluj, and Beijing.</p></div>
         <div class="photo-grid">
-          <article><img src="assets/team-greece-ioai-2025.png" alt="Team Greece at IOAI 2025 in Beijing with the Greek flag" width="998" height="693" loading="lazy"><div><strong>Beijing · IOAI 2025</strong><span>2 silver · 1 bronze</span></div></article>
-          <article><img src="assets/team-greece-euroai-2026.jpg" alt="Team Greece at EUROAI 2026 in Cluj-Napoca with the Greek flag" width="4032" height="3024" loading="lazy"><div><strong>Cluj · EUROAI 2026</strong><span>2 bronze</span></div></article>
           <article><img src="assets/team-greece-ioai-2026.jpeg" alt="Team Greece at IOAI 2026 in Astana with medals and the Greek flag" width="5120" height="3840" loading="lazy"><div><strong>Astana · IOAI 2026</strong><span>2 silver · 2 bronze</span></div></article>
+          <article><img src="assets/team-greece-euroai-2026.jpg" alt="Team Greece at EUROAI 2026 in Cluj-Napoca with the Greek flag" width="4032" height="3024" loading="lazy"><div><strong>Cluj · EUROAI 2026</strong><span>2 bronze</span></div></article>
+          <article><img src="assets/team-greece-ioai-2025.png" alt="Team Greece at IOAI 2025 in Beijing with the Greek flag" width="998" height="693" loading="lazy"><div><strong>Beijing · IOAI 2025</strong><span>2 silver · 1 bronze</span></div></article>
         </div>
         <p class="community-foot"><a href="https://archimedesai.gr/en/news/six-medals-for-the-greek-national-ai-team-at-euroai-and-ioai-2026" target="_blank" rel="noopener noreferrer">Read the 2026 medal announcement ↗</a></p>
       </div>
