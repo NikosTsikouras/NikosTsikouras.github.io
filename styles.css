@@ -119,3 +119,9 @@ h1 em{color:#25688c}
 .earlier-awards p{font-size:11px;line-height:1.4;max-width:780px;margin:8px 0 0}
 @media(max-width:840px){.awards-strip{grid-column:auto}.awards-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 0}.awards-list li:nth-child(odd){border-left:0;padding-left:0}}
 @media(max-width:370px){.awards-list strong{font-size:11px}.awards-list span{font-size:9px}.awards-list li{padding-right:6px;padding-left:11px}}
+.institution-outcome{display:inline-block;margin-top:3px;font-weight:700;color:#1d5f82}
+.more-grid-single{grid-template-columns:1fr}
+.more-grid-single>div{max-width:700px}
+.paper-main .paper-explainer{font-size:13px;line-height:1.4;color:#394f5c;margin:2px 0 8px;max-width:760px}
+.paper-main .paper-authors{font-size:11px;color:#667784}
+@media(max-width:620px){.paper-main .paper-explainer{font-size:12px;margin:2px 0 7px}.paper-main .paper-authors{font-size:10px}}
