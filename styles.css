@@ -60,7 +60,7 @@ h1{font-size:clamp(59px,5.5vw,78px);line-height:.9;margin-bottom:27px;letter-spa
 h1 em{color:#25688c}
 .intro-copy{font-size:clamp(15px,1.25vw,17px);line-height:1.55;color:#3f4f5a;max-width:555px;margin-bottom:20px}
 .intro-copy a{text-decoration-color:#91b0c2}.intro-copy a:hover{color:#23678b}
-.availability{color:#1d5e82;margin-bottom:22px}.availability span{background:#4c95ba;box-shadow:0 0 0 4px #e2f0f7}
+.availability{align-items:center;width:fit-content;max-width:555px;margin-bottom:22px;padding:13px 16px;background:#e7f2f8;border:1px solid #bed7e5;border-left:4px solid #1d5f82;border-radius:5px;box-shadow:0 4px 14px rgba(29,95,130,.08);color:#164f6e;font-size:13px;line-height:1.45}.availability span{margin-top:0;background:#2c7fa7;box-shadow:0 0 0 4px #d0e6f1}
 .intro-actions{margin-bottom:24px}.button-primary{background:#1c5878;color:#fff}.button-primary:hover{background:#246f96}.button-quiet{border-color:#9cb3bf;color:#263b48}.button-quiet:hover{border-color:#23678b;color:#1d5f82}
 .profile-links{color:#607583}.dashboard{align-self:stretch}
 .top-cards{grid-template-columns:minmax(220px,.95fr) minmax(0,1.05fr);gap:14px;margin:0;height:330px}
@@ -136,6 +136,7 @@ h1 em{color:#25688c}
 .news-card li.featured-news>time{color:#155477}
 .news-list:focus-visible{outline:2px solid #1d6388;outline-offset:-2px}
 @media(max-width:620px){.news-head{margin-bottom:8px}.news-head>span{font-size:8px}.news-card li>time{font-size:8px}.news-card .news-list{padding-right:5px}}
+@media(max-width:620px){.availability{max-width:100%;padding:11px 13px;font-size:12px}}
 
 .desktop-nav .nav-letter{display:inline-block;white-space:pre;transform-origin:center bottom}
 .desktop-nav>a:not(.nav-contact):is(:hover,:focus-visible) .nav-letter{animation:nav-letter-hop .55s cubic-bezier(.2,.8,.25,1) both;animation-delay:var(--delay)}
